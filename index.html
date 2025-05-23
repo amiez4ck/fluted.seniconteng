@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Seni Conteng HT</title>
+  <title><span data-lang-en="Seni Conteng HT" data-lang-my="Seni Conteng HT">Seni Conteng HT</span></title>
   <link rel="stylesheet" href="index.css" />
   <link rel="stylesheet" href="mobile-index.css" media="only screen and (max-width: 768px)" />
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=DM+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
@@ -21,33 +21,50 @@
     </div>
     <nav>
       <a href="#home" class="nav-link" data-aos="fade-up" data-aos-delay="400">Home</a>
-      <a href="#info" class="nav-link" data-aos="fade-up" data-aos-delay="500">Info</a>
+      <a href="#more" class="nav-link" data-aos="fade-up" data-aos-delay="500">Info</a>
       <a href="#why" class="nav-link" data-aos="fade-up" data-aos-delay="600">Why Us</a>
-      <a href="#contact" class="nav-link" data-aos="fade-up" data-aos-delay="700">Contact</a>
+      <a href="#footer" class="nav-link" data-aos="fade-up" data-aos-delay="700">Contact</a>
     </nav>
+
+
+      <div class="lang-switcher">
+  <button class="lang-btn" data-lang="my" onclick="setLang('my')">MY</button>
+  <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+  </div>
+
     </header>
 
-<section class="hero-slider">
+
+
+<section class="hero-slider" id="home">
    <div class="slide active slide-1" style="background-image: url(img/bg-hero_desktop.jpg);">
    <div class="hero-overlay" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1200">
-   <h1 class="type-effect" data-aos="fade-up" data-aos-delay="400">Seni Conteng HT</h1>
-      <p  data-aos="fade-up" data-aos-delay="600">“Serlahkan Dinding Rumah Anda Menjadi Modern”</p>
-      <a href="#info" class="btn anim-item delay-3" data-aos="fade-up" data-aos-delay="800">More Info</a>
+   <h1 class="type-effect" data-aos="fade-up" data-aos-delay="400">
+    <span data-lang-en="Seni Conteng HT" data-lang-my="Seni Conteng HT">Seni Conteng HT</span></h1>
+      <p  data-aos="fade-up" data-aos-delay="600">
+        <span data-lang-my="“Serlahkan Dinding Rumah Anda Menjadi Modern”" data-lang-en=" Transform Your Walls into a Modern Statement">“Serlahkan Dinding Rumah Anda Menjadi Modern”</span></p>
+      <a href="#info" class="btn anim-item delay-3" data-aos="fade-up" data-aos-delay="800">
+        <span data-lang-my="Lihat Lebih Lanjut" data-lang-en="More Info">More Info</span></a>
     </div>
   </div>
   <div class="slide slide-2" style="background-image: url('img-png/background_4.png');">
     <div class="hero-overlay" >
       <h1 data-aos="fade-up" data-aos-delay="400">Panel Fluted Premium</h1>
-      <p data-aos="fade-up" data-aos-delay="600">“Transformasi ruang dengan gaya kayu eksklusif”</p>
-      <a href="#info" class="btn anim-item delay-3" data-aos="fade-up" data-aos-delay="800">More Info</a>
+      <p data-aos="fade-up" data-aos-delay="600">
+        <span data-lang-my="Transformasi ruang dengan gaya kayu eksklusif" data-lang-en="Transform Your Space with Exclusive Wood Styling">“Transformasi ruang dengan gaya kayu eksklusif”</span></p>
+      <a href="#info" class="btn anim-item delay-3" data-aos="fade-up" data-aos-delay="800">
+        <span  data-lang-my="Lihat Lebih Lanjut" data-lang-en="More Info">More Info</span></a>
     </div>
   </div>
 
     <div class="slide slide-3" style="background-image: url(img/background-katil-1.jpg);">
     <div class="hero-overlay">
-      <h1 data-aos="fade-up" data-aos-delay="400">Produk Istimewa Dari Kami</h1>
-      <p data-aos="fade-up" data-aos-delay="600">“Naikkan Aura Rumah Anda Dengan Panel Fluted”</p>
-      <a href="#info" class="btn anim-item delay-3" data-aos="fade-up" data-aos-delay="800">More Info</a>
+      <h1 data-aos="fade-up" data-aos-delay="400">
+        <span data-lang-my="Produk Istimewa Dari Kami" data-lang-en="Our Exclusive Products">Produk Istimewa Dari Kami</span></h1>
+      <p data-aos="fade-up" data-aos-delay="600">
+        <span data-lang-my="Naikkan Aura Rumah Anda Dengan Panel Fluted" data-lang-en="Boost Your Home’s Ambience with Fluted Panels">“Naikkan Aura Rumah Anda Dengan Panel Fluted”</span></p>
+      <a href="#info" class="btn anim-item delay-3" data-aos="fade-up" data-aos-delay="800">
+      <span data-lang-my="Lihat Lebih Lanjut" data-lang-en="More Info">More Info</span></a>
     </div>
   </div>
 </section>
@@ -55,7 +72,8 @@
  <!-- SECTION: MORE INFO -->
 <section class="more-info-section" id="more">
   <div class="section-title-wrapper anim-item delay-1" data-aos="fade-up">
-  <h2 class="section-title">Setiap Butiran Direka dengan Teliti</h2>
+  <h2 class="section-title">
+    <span data-lang-en="Every Detail Designed with Precision" data-lang-my="Setiap Butiran Direka dengan Teliti">Setiap Butiran Direka dengan Teliti</span></h2>
 </div>
   <span class="title-underline"></span>
   <div class="more-info-content">
@@ -69,9 +87,11 @@
       <div class="icon">
         <img src="img/icon_wood.png" alt="Kayu Premium" width="50" />
       </div>
-      <h3>Material Kayu Premium</h3>
-      <p>Kami menggunakan kayu fluted yang berkualiti dan tahan lembap, tidak mudah reput dan mesra alam.
+       <h3><span data-lang-en="Premium Wood Material" data-lang-my="Material Kayu Premium">Material Kayu Premium</span></h3>
+      <p><span data-lang-my="Kami menggunakan kayu fluted yang berkualiti dan tahan lembap, tidak mudah reput dan mesra alam.
+        sesuai untuk ruang dalaman modern dan elegan." data-lang-en="We use high-quality, moisture-resistant fluted wood that is durable, eco-friendly, and ideal for modern, elegant interiors.">Kami menggunakan kayu fluted yang berkualiti dan tahan lembap, tidak mudah reput dan mesra alam.
         sesuai untuk ruang dalaman modern dan elegan.
+      </span>
       </p>
     </div>
 
@@ -89,9 +109,11 @@
       <div class="icon">
         <img src="img/paint-palette_1546959.png" alt="Paler Icon" width="50" />
       </div>
-      <h3>Cetakan Kaligrafi Halus</h3>
-      <p>Tulisan dan corak pada produk ini diukir dengan teliti untuk hasil yang kemas,
+      <h><span data-lang-my="Reka Bentuk Ideal" data-lang-en="Ideal Design">Reka Bentuk ideal</span></h3>
+      <p><span data-lang-my="Tulisan dan corak pada produk ini diukir dengan teliti untuk hasil yang kemas,
+        tepat untuk setiap pelanggan kami." data-lang-en="The text and patterns on this product are carefully engraved for a clean finish, precisely crafted for each of our customers.">Tulisan dan corak pada produk ini diukir dengan teliti untuk hasil yang kemas,
         tepat untuk setiap pelanggan kami.
+        </span>
       </p>
     </div>
   </div>
@@ -101,8 +123,8 @@
     <div class="icon">
         <img src="img/delivery-man_3929115.png" alt="Courier Icon" width="50" />
     </div>
-    <h3>Penghantaran Dan Pemasangan Disediakan</h3>
-    <p>Pihak kami menyediakan servis pemasangan dan penghantaran bagi pelanggan kami,</p>
+    <h3><span data-lang-my="Penghantaran Dan Pemasangan" data-lang-en="Delivery And Installation Service Of Our Customer.">Penghantaran Dan Pemasangan Disediakan</span></h3>
+    <p><span data-lang-my="Pihak kami menyediakan servis pemasangan dan penghantaran bagi pelanggan kami." data-lang-en="Enjoy hassle-free delivery and professional installation — provided by our team just for you"> Pihak kami menyediakan servis pemasangan dan penghantaran bagi pelanggan kami.</p>
   </div>
   </div>
 </section>
@@ -110,60 +132,69 @@
 
   <!-- WHY US SECTION -->
   <section class="why-us" id="why">
- <h2 class="section-title">Dipercayai Ramai</h2>
-<p class="section-subtitle">Dibina dengan teliti, hasil sentuhan yang berkualiti dan premium.</p>
+  <h2 class="section-title">
+  <span data-lang-en="Trusted by Many" data-lang-my="Dipercayai Ramai">Dipercayai Ramai</span></h2>
+  <p class="section-subtitle">
+  <span data-lang-my="Dibina dengan teliti, hasil sentuhan yang berkualiti dan premium." data-lang-en="Crafted with care, delivering a premium and high-quality finish.">Dibina dengan teliti, hasil sentuhan yang berkualiti dan premium.</span></p>
 
 
 
   <div class="why-item fade-anim delay-1" data-aos="fade-right" data-aos-delay="100">
     <img src="img/networking.jpg" alt="Penghantaran Seluruh Malaysia" />
     <div class="why-text">
-      <h4>Penghantaran & Pemasangan</h4>
-      <p>Dari Kedah ke Johor kami telah membantu menciptakan rumah impian setiap orang.</p>
+      <h4><span data-lang-my="Penghantaran & Pemasangan" data-lang-en="Delivery & Installation">Penghantaran & Pemasangan</span></h4>
+      <p><span data-lang-my="Dari Kedah ke Johor kami telah membantu menciptakan rumah impian setiap orang." data-lang-en="From Kedah to Johor, we’ve helped turn countless dream homes into reality.">Dari Kedah ke Johor kami telah membantu menciptakan rumah impian setiap orang.</span></p>
     </div>
   </div>
 
   <div class="why-item fade-anim delay-1" data-aos="fade-left" data-aos-delay="200">
     <img src="img/pnglmn_pelanggan.jpg" alt="Pengalaman Pelanggan" />
     <div class="why-text">
-      <h4>Dipercayai Pelanggan</h4>
-      <p>Pengalaman bertahun - tahun memberikan servis yang terbaik untuk pelanggan kami.</p>
+      <h4><span data-lang-my="Dipercayai Pelanggan" data-lang-en=" Trusted by Customers">Dipercayai Pelanggan</span></h4>
+      <p data-lang-my="Pengalaman bertahun - tahun memberikan servis yang terbaik untuk pelanggan kami." data-lang-en="Years of experience delivering the best service to our customers.">Pengalaman bertahun - tahun memberikan servis yang terbaik untuk pelanggan kami.</p>
     </div>
   </div>
 
   <div class="why-item fade-anim delay-1" data-aos="fade-up" data-aos-delay="300">
     <img src="img/teliti&kemas.jpg" alt="Rekaan Unik dan Berkualiti" />
     <div class="why-text">
-      <h4>Rekaan Unik & Berkualiti</h4>
-      <p>Setiap produk direka dengan teliti dan kemas untuk menepati citarasa eksklusif anda.</p>
+      <h4><span data-lang-my="Rekaan Unik & Berkualiti" data-lang-en="Unique & High-Quality Designs">Rekaan Unik & Berkualiti</span></h4>
+      <p><span data-lang-my="Setiap produk direka dengan teliti dan kemas untuk menepati citarasa eksklusif anda." data-lang-en="Each product is thoughtfully and neatly designed to match your exclusive taste.">Setiap produk direka dengan teliti dan kemas untuk menepati citarasa eksklusif anda.</span></p>
     </div>
   </div>
 </section>
 
 
   <!-- MEDIA SOSIAL -->
-  <footer class="site-footer">
+ <footer class="site-footer">
   <div class="footer-top">
     <div class="footer-brand">
       <h3>Seni Conteng HT</h3>
-      <p>Menjadikan kenangan perkahwinan anda lebih bermakna.</p>
+      <p data-lang-my="Realisasikan Rumah Impian Anda Bersama Kami." data-lang-en="Make Your Dream Home a Reality with Us.">Realisasikan Rumah Impian Anda Bersama Kami.</p>
     </div>
-    <div class="footer-links">
-      <a href="#home">Home</a>
-      <a href="#info">Info</a>
-      <a href="#why">Why Us</a>
-      <a href="#contact">Contact</a>
+
+    <div class="footer-nav">
+      <ul class="footer-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#info">Info</a></li>
+      <li><a href="#why">Why Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+      </ul>
     </div>
+
     <div class="footer-social">
-      <a href="https://wa.me/60123456789" target="_blank"><img src="img/icon-whatsapp.svg" alt="WhatsApp"></a>
-      <a href="https://instagram.com/senicontenght" target="_blank"><img src="img/icon-instagram.svg" alt="Instagram"></a>
-      <a href="mailto:senicontenght@gmail.com"><img src="img/icon-email.svg" alt="Email"></a>
+      <a href="#"><img src="img/whatsapp.svg" alt="WhatsApp" class="footer-icon" /></a>
+      <a href="#"><img src="img/instagram.svg" alt="Instagram" class="footer-icon" /></a>
+      <a href="#"><img src="img/tiktok.svg" alt="Tiktok" class="footer-icon" /></a>
+      <a href="#"><img src="img/email.svg" alt="Email" class="footer-icon" /></a>
     </div>
   </div>
+
   <div class="footer-bottom">
-    <p>&copy; 2025 Seni Conteng HT. Hak Cipta Terpelihara.</p>
+    <p data-lang-my="&copy; 2025 Seni Conteng HT. Hak Cipta Terpelihara." data-lang-en="© 2025 Seni Conteng HT. All Rights Reserved.">&copy; 2025 Seni Conteng HT. Hak Cipta Terpelihara.</p>
   </div>
 </footer>
+
 
 
 
@@ -248,6 +279,32 @@ document.querySelectorAll('.section-title-wrapper').forEach(el => {
       observer.observe(whyUsSection);
     }
   });
+</script>
+
+
+<script>
+
+  function setLang(lang) {
+  const elements = document.querySelectorAll('[data-lang-en]');
+  elements.forEach(el => {
+    const text = el.getAttribute(`data-lang-${lang}`);
+    if (text) el.textContent = text;
+  });
+  localStorage.setItem('selectedLang', lang);
+
+  // Highlight butang aktif
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.remove('active');
+    if (btn.dataset.lang === lang) btn.classList.add('active');
+  });
+}
+
+// Aktifkan pada load
+document.addEventListener("DOMContentLoaded", function () {
+  const lang = localStorage.getItem('selectedLang') || 'my';
+  setLang(lang);
+});
+
 </script>
 
 
